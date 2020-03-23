@@ -1,0 +1,262 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8983262084126188132
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05487723e0bf7674d8819359ce0d8fdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 0}
+--- !u!114 &-8911548108310630092
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43fd70c9b64e53a4e8702dbd00412a0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ProcessorName: Assemble Flipbook
+  Enabled: 1
+  Settings: {fileID: 7730100686666621310}
+--- !u!114 &-5811958224180770169
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43fd70c9b64e53a4e8702dbd00412a0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ProcessorName: Assemble Flipbook
+  Enabled: 1
+  Settings: {fileID: -5759382399867168250}
+--- !u!114 &-5759382399867168250
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d77e015c9f1a1eb44a23bc84ec1b265d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FlipbookNumU: 5
+  FlipbookNumV: 5
+  Mode: 0
+--- !u!114 &-3877280561483682451
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43fd70c9b64e53a4e8702dbd00412a0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ProcessorName: Break Flipbook
+  Enabled: 1
+  Settings: {fileID: 8400230868014833963}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 546069fd762786f4da89225e1989d105, type: 3}
+  m_Name: Sample Image Sequence
+  m_EditorClassIdentifier: 
+  inputFrameGUIDs:
+  - 8394238f9dd5b364f8d9e4feaf60148b
+  - fc08788ea5f69c84da953b8217965c16
+  - 46cf43598ad42b74d9a6c3484f9189be
+  - 87eaa283d64ae894c8d9b46bff170cd8
+  - 83e7fa394438d964086365c352ce0b53
+  - 7e8e2ba22b62e894b89133597a051e16
+  - a7f45ce7f0921324186f2fd6d5c3152c
+  - 3f727df4df1555b43bea5e5e791111fc
+  - b1a728b53f6e6ec449e9ab8179b95bcd
+  - 0ee777853d78b8a439d195190bfd96ac
+  - 8adf774e0de74fc4bb151194105585f6
+  - fbdfa7b28ef182c48942f6aad4d73517
+  - 51f25e44e63d1e5468c9461dfced55d4
+  - ae09c8dd3cd50054596081ec39d79377
+  - 8b16fe92d550eda479cdb884798abf32
+  - 23d6907fc358d804fbb2ad4b6ae242e8
+  - 24df3e47806881049b63955846509703
+  - 578b98dc302ee2545854e7639bba0f63
+  - 3242af613ef3df648a82eb466717c735
+  - f9f054d33a9a31e40b11b81e99f323f1
+  - e5c3f13cef3b58344b137b1019df4ce7
+  - 0c992c7df5b21684a957918728592692
+  - c9e65d1c0c13fce4c8ad436f382770f5
+  - d027d88cb4ff7804d807ff03f962d183
+  - b5c91d9ee8d77464e97ea8fbe83a3812
+  - 645c3c47db71c0d4fab81b3e7b61b978
+  - dd72d34f067c5ba4eb878fad3eb75ed8
+  - 7c17dc661cce0da408b2d416e6842cf1
+  - 5b01112c84e03c44fb9de30d86460c78
+  - b3ceadf8c3d97c542a4446051e201d71
+  - 8d4a87497dbbdba4099b1f448a3954dc
+  - 9bad969b713cb0045817320f61776b00
+  - 9d5d0367434d8154c80bf81e3eeb611c
+  - 6cf55fcafcef6894fae06a7a8e02c4ac
+  - a16a4e4d7322cc34fbc7ad10ebe9779f
+  - 281832449237fb54382dd75f39e8c98d
+  - c465b81f759065b4ebd08bd3eff0da91
+  - 4986586800488d846832376371cb81c4
+  - 69197fb8bbb873742a5aef5f9dea16d6
+  - e568c39660f890a4cbdb39ad6cd675de
+  - 89c22fef56719ce408a60c29a1980a68
+  - 245be8a25d4cd4248ab15f800347c284
+  - d2f9927d41a87e7428657b288a37539f
+  - 6dca3c10f1a031841a1a0712b4251f80
+  - 88bdc14d1928c35469d572066a0c1e6d
+  - fc68a6acd5df2464b92ba95db15609ee
+  - 1e8a9f2c67bf69340afe16362ad0748a
+  - 3ced9f6b5ce61714c963a5602fad2751
+  - 0a16b8df384435f47b6e657cb7aafd02
+  - 07924bd9fd68a2a43b39df16a904b071
+  - 3023d30854f85524a819900932a2200d
+  - 7e9c0739e4880a04bbfbb6aa73b21713
+  - f834685b2f6875846b98326616b75728
+  - 7bd7a39f57e53864d8811f8c3d386fc2
+  - bc51e4b995eae3b4c9369110dc3a9f7e
+  - 91329482fa35a004bb7fb4a7cf019973
+  - b179f1e3ea38fb54488fd27d5451adde
+  - a034e05f3e2f16c4789179bb604be7bc
+  - d1731a7511c6c24468f72866e67aab58
+  - 3e34ab0b8a527ea4981333d5d70042aa
+  - 91b56a2346cc1db41b73d85b601c8052
+  - 2c184578505cd1f4e80c789152b1e7ff
+  - ae026b9736f311f4da243b90f63c00f3
+  - ae5c04029a4f5144bb281b2f0a4b1ba0
+  - b16ad26ddf006fa46a4870f9a40a802e
+  - 56014506b18802c449190e42d7b49ab3
+  - 62020a8bf3dc035439effc4638c82441
+  - 5eb0f69486a2cbc4b853431b96ffde19
+  - 9c9cd1a60175e8c4a8ee1b879a4177c3
+  - 455495e2fb325cd438538cd0a2c8d560
+  - 90ed05a9d5b33824cb9857af8e5219a9
+  - 29ab506728f1bc340b06b0f28bae078a
+  - 3310a41519d5c9248a45ed89ca289e61
+  - 7dbcb382e621f0946900cbbd95e9094b
+  - 5c253654ff08d2145837f25128dbed14
+  - f2b256834438b2e4fb973e4d9d2af84b
+  - f87497864b2ab3b4b865af422fdb9858
+  - de804b627bec98142867953bcfd48953
+  - c2f816f6525cc404d9fb1cf204423988
+  - 2f2accf4f3e4cb943bfa96d9ade87c3d
+  - 67d12a3da4ee6bf42b257f34d8fdf87a
+  processorInfos:
+  - {fileID: 2565209965874610096}
+  exportSettings:
+    fileName: Assets/Images/Flipbook/Sample Image Sequence_9x9.png
+    frameCount: 1
+    exportMode: 2
+    exportAlpha: 1
+    exportSeparateAlpha: 0
+    sRGB: 1
+    highDynamicRange: 0
+    compress: 1
+    generateMipMaps: 0
+    wrapMode: 0
+    filterMode: 1
+    dataContents: 3
+  editSettings:
+    selectedProcessor: 0
+    lockedProcessor: -1
+  inheritSettingsReference: {fileID: 0}
+--- !u!114 &938656343795867072
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43fd70c9b64e53a4e8702dbd00412a0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ProcessorName: Custom Material
+  Enabled: 1
+  Settings: {fileID: -8983262084126188132}
+--- !u!114 &2565209965874610096
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43fd70c9b64e53a4e8702dbd00412a0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ProcessorName: Assemble Flipbook
+  Enabled: 1
+  Settings: {fileID: 8945391445190641313}
+--- !u!114 &7730100686666621310
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d77e015c9f1a1eb44a23bc84ec1b265d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FlipbookNumU: 5
+  FlipbookNumV: 5
+  Mode: 0
+--- !u!114 &8400230868014833963
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef761cb6292c6944abbea1c0f10e1120, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FlipbookNumU: 5
+  FlipbookNumV: 5
+--- !u!114 &8945391445190641313
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d77e015c9f1a1eb44a23bc84ec1b265d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FlipbookNumU: 9
+  FlipbookNumV: 9
+  Mode: 0
